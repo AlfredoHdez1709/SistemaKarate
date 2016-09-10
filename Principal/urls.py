@@ -3,5 +3,5 @@ from . import views
 
 
 urlpatterns = [
-	url(r'^Administrador$', views.Panel.as_view(), name="list"),
+	url(r'^$', views.Home.as_view(), name="list"),
 ]
