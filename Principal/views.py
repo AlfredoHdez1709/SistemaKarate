@@ -11,5 +11,17 @@ class Home(ListView):
         return render(request, template_name, context)
 
 
+class inicio(ListView):
+    def get(self, request):
+        template_name = "accounts/login.html"
+        context = {}
+        return render(request, template_name, context)
+
+        
+class PerfilView(ListView):
+    def get(self, request):
+        template_name= "accounts/perfil.html"
+        context = {}
+        return render(request, template_name, context)
 
 # Create your views here.
