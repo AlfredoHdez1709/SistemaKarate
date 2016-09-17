@@ -1,11 +1,11 @@
 {%extends 'base.html'%}
-
+{%load static%}
 {%block content%}
 
 
 <!--sliders-->
 <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax.jpg"></div>
+    <div class="parallax"><img src="{%static 'img/parallax.jpg'%}" style="display:inline;"></div>
   </div>
   <div class="section white">
     <div class="row container">

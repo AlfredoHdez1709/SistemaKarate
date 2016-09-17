@@ -1,4 +1,4 @@
-#!/home/ivan/Documentos/SegundoIntento/ProyectoFixter/entorno/bin/python
+#!/home/ivan/Prueba3/SistemaKarate/entorno/bin/python
 
 import sys
 import getopt

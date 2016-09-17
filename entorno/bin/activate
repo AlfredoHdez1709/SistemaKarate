@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ivan/Documentos/SegundoIntento/ProyectoFixter/entorno"
+VIRTUAL_ENV="/home/ivan/Prueba3/SistemaKarate/entorno"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
